@@ -11,7 +11,6 @@ Then, you can encrypt any message you would like by running encryption.py:
 message = input("input message to encrypt: ")
     message = message.encode('utf-8')
 
-    # enter public key tuple that was generated from key_generation
     pub_key = #enter public key tuple that was generated from key_generation.py
     C = rsa.RSAOAEPEnc(message, pub_key)
     
